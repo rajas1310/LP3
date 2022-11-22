@@ -1,7 +1,7 @@
 # A Huffman Tree Node
 import heapq
 
-
+# Time Complexity: O(nlogn)
 class Node:
     def __init__(self, freq, symbol, left=None, right=None):
         self.freq = freq
